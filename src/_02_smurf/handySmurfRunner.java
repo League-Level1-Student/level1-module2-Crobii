@@ -6,5 +6,15 @@ public class handySmurfRunner {
 	System.out.println(handySmurf.getName());
 	handySmurf.eat();
 
+	Smurf papaSmurf = new Smurf("papa");
+	System.out.println(papaSmurf.getName());
+	System.out.println(papaSmurf.getHatColor());
+	papaSmurf.eat();
+	
+	Smurf smurfette = new Smurf("smurfette");
+	System.out.println(smurfette.getName());
+	
+	
+	
 }
 }

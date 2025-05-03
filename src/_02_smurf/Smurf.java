@@ -21,7 +21,12 @@ public class Smurf {
 	}
 
 	public String getName() {
+		if (!name.equals("smurfette")) {
 		return "My name is " + name + " Smurf.";
+		}
+		else {
+			return "My name is " + name;
+		}
 	}
 
 	public void eat() {
@@ -31,7 +36,7 @@ public class Smurf {
 	// Papa Smurf wears a red hat, all the others are white.
 	public String getHatColor() {
 		// 3. Fill in this method
-		if(name.equals("papaSmurf")) {
+		if(name.equals("papa")) {
 		return "red";
 		
 	}
